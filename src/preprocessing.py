@@ -126,7 +126,7 @@ def prepare_cnn_segments(signal, normalization):
         segments,
         dtype=np.float32
     )
-    
+
     # 3. Normalize using training-set mean and standard deviation.
     mean = float(normalization["mean"])
     std = float(normalization["std"])

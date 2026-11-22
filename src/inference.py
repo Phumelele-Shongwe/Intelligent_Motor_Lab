@@ -8,7 +8,7 @@ import torch
 
 from src.models import BearingCNN
 
-#Load all trained bearing diagnosis models and CNN normalization parameters. 
+#Load all trained bearing diagnosis models and CNN normalization parameters.
 def load_models(model_dir, device=None):
 
     model_dir = Path(model_dir)
