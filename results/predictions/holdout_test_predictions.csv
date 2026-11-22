@@ -1,0 +1,16 @@
+model,filename,actual_class,predicted_class,probability_inner_race
+logistic_regression,100_Normal_3.mat,0,0,0.07592727388638744
+logistic_regression,105_0.mat,1,1,0.899813655288524
+logistic_regression,170_1.mat,1,1,0.9563983162304458
+logistic_regression,211_2.mat,1,1,0.9505977844955034
+logistic_regression,3004_3.mat,1,1,0.8944884964365397
+random_forest,100_Normal_3.mat,0,0,0.002003968253968254
+random_forest,105_0.mat,1,1,1.0
+random_forest,170_1.mat,1,1,0.9482539682539682
+random_forest,211_2.mat,1,1,1.0
+random_forest,3004_3.mat,1,1,0.9704166666666667
+cnn,100_Normal_3.mat,0,0,0.02056746929883957
+cnn,105_0.mat,1,1,0.9829421639442444
+cnn,170_1.mat,1,1,0.9049209952354431
+cnn,211_2.mat,1,1,0.9711720943450928
+cnn,3004_3.mat,1,1,0.9491609930992126

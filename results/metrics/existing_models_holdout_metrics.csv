@@ -1,0 +1,4 @@
+model,test_recordings,accuracy,balanced_accuracy,precision,recall_sensitivity,specificity,f1,roc_auc,tn,fp,fn,tp
+cnn,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,0,0,4
+logistic_regression,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,0,0,4
+random_forest,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,0,0,4

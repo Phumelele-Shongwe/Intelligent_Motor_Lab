@@ -1,0 +1,36 @@
+﻿# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets
+.env
+.streamlit/secrets.toml
+
+# Large local CWRU dataset
+dataset/*
+!dataset/README.md
+
+# Local legacy cleanup backup
+legacy_cleanup_backup/
+
+# Temporary files
+*.tmp
+*.log

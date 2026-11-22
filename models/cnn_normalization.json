@@ -1,0 +1,7 @@
+{
+    "mean": 0.01035506185144186,
+    "std": 0.3746083080768585,
+    "sampling_frequency": 12000,
+    "window_samples": 12000,
+    "edge_samples": 3000
+}

@@ -1,0 +1,4 @@
+model,test_recordings,accuracy,balanced_accuracy,precision,recall_sensitivity,specificity,f1,roc_auc,tn,fp,fn,tp,recordings_benchmarked,segments_per_recording_mean,warmup_runs_per_recording,benchmark_runs_per_recording,mean_latency_ms,median_latency_ms,p95_latency_ms,recordings_per_second,model_size_kb,model_label
+logistic_regression,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,0,0,4,5,15.0,10,100,0.4842552067711949,0.3662998788058758,1.0059450985863805,2065.0268412549844,1.4072265625,Logistic Regression
+random_forest,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,0,0,4,5,15.0,10,100,31.98755499068648,26.598050026223063,50.35420486237853,31.26215805775593,189.0556640625,Random Forest
+cnn,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,0,0,4,5,15.0,10,100,25.701435394585133,13.914099894464016,70.71343993302433,38.908332731123785,85.798828125,1D CNN

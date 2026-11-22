@@ -1,0 +1,5 @@
+experiment,features,accuracy,balanced_accuracy,precision,recall,f1,roc_auc
+RMS only,1,0.8,0.875,1.0,0.75,0.8571428571428571,1.0
+Crest factor only,1,0.75,0.84375,1.0,0.6875,0.8148148148148148,1.0
+Envelope frequency only,1,1.0,1.0,1.0,1.0,1.0,1.0
+All three,3,1.0,1.0,1.0,1.0,1.0,1.0

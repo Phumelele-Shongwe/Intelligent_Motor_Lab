@@ -1,0 +1,23 @@
+{
+    "experiment": "Recording-level held-out evaluation",
+    "training_recordings": 15,
+    "test_recordings": 5,
+    "training_segments": 205,
+    "test_segments": 75,
+    "features": [
+        "rms",
+        "crest_factor",
+        "envelope_dominant_frequency"
+    ],
+    "traditional_aggregation": "Median of segment features per recording",
+    "cnn_aggregation": "Mean of segment probabilities per recording",
+    "cnn_normalization": "Mean and standard deviation calculated from training segments only",
+    "classification_threshold": 0.5,
+    "random_seed": 42,
+    "models": [
+        "logistic_regression",
+        "random_forest",
+        "cnn"
+    ],
+    "test_set_used_for_training": false
+}

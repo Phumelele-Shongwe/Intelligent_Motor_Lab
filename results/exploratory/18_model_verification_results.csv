@@ -1,0 +1,7 @@
+recording,model,expected_class,predicted_class,inner_race_probability,correct
+97_Normal_0.mat,Logistic Regression,Healthy,Healthy,0.063941272587611,True
+97_Normal_0.mat,Random Forest,Healthy,Healthy,0.0,True
+97_Normal_0.mat,CNN,Healthy,Healthy,0.01365899108350277,True
+105_0.mat,Logistic Regression,Inner_Race,Inner_Race,0.9147874040006915,True
+105_0.mat,Random Forest,Inner_Race,Inner_Race,1.0,True
+105_0.mat,CNN,Inner_Race,Inner_Race,0.9922789335250854,True
